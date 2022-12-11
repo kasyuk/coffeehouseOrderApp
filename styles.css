@@ -1,0 +1,218 @@
+@media screen and (max-width: 1024px) {
+    * {
+        margin: 0 !important;
+        /* padding: 0 !important; */
+    }
+    .input__block,
+    .orders__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .order {
+        width: auto;
+        height: auto !important;
+        /* border-radius: 0 !important; */
+    }
+    .item {
+        margin-bottom: 10px !important;
+    }
+    .item label {
+        margin-left: 10px !important;
+    }
+    .wrapper {
+        margin-top: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+    .sum__block {
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .input__block,
+    .orders__block,
+    .sum__block 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .order {
+        width: auto;
+        height: auto !important;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: .5s ease-in-out;
+    font-family: 'Oswald';
+}
+body {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/1280px-Roasted_coffee_beans.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.logo {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.order {
+    border-radius: 15px;
+    background-color: #502e23 ;
+    height: 700px;
+    width: 1000px;
+}
+.order .logo {
+    text-align: center;
+    padding: 40px 0;
+}
+/* input block name surname*/
+.input__block {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+input[name='surname'] {
+    margin-right: 64px;
+}
+input[placeholder] {
+    text-align: center;
+    padding: 9px 83px;
+    background: transparent;
+    border: 1px solid #fff;
+    background-color: #cea290;
+    
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+input[placeholder]:focus {
+    outline: none;
+}
+/* oders block */
+.orders__block {
+    display: flex;
+    justify-content: center;
+}
+.fgs {
+    margin: 0 40px;
+}
+.orders__coffee {
+    /* border: solid pink; */
+    /* margin-right: 120px; */
+}
+/* general block settings */
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+/* label style */
+.item label {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.orders__food label {
+    width: 120px;
+}
+/* checkbox style */
+.item input[type='checkbox'] {
+    width: 23px;
+    height: 23px;
+    background: #b3989d;
+}
+/* counter style */
+.item input[type="number"]{
+    text-align: center;
+    height: 55px;
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+/* remove arrows type=number */
+.item input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+.item input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+.item input[type="number"] {
+    outline: none;
+}
+[placeholder]::-moz-placeholder {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+[placeholder]::-webkit-input-placeholder {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+/* calculate sum block */
+.sum__block {
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.total {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #fff;
+    
+    /* border: solid red; */
+}
+.sum {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 20px 0;
+    /* border: solid green; */
+}
+button {
+    width: 190px;
+    height: 55px;
+    background: #cea290;
+    border: 1px solid #fff;
+
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+button:hover {
+    background: #fff;
+    color: #1b0d0a;
+}
+
