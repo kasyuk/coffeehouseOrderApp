@@ -1,4 +1,2 @@
-# coffeehouseOrderApp
-Portfolio
+# coffehouse order page
 
-Example of order window
